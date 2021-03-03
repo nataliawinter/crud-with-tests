@@ -1,0 +1,23 @@
+{
+  "name": "crud-with-tests",
+  "version": "1.0.0",
+  "description": "A simple crud using Node.js for me practice the tests with the Mocha Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nataliawinter/crud-with-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nataliawinter/crud-with-tests/issues"
+  },
+  "homepage": "https://github.com/nataliawinter/crud-with-tests#readme",
+  "dependencies": {
+    "mocha": "^8.3.0"
+  }
+}
