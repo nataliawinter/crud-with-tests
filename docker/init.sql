@@ -1,0 +1,10 @@
+
+CREATE DATABASE IF NOT EXISTS clients;
+
+USE clients;
+
+CREATE TABLE IF NOT EXISTS client(
+     id MEDIUMINT NOT NULL AUTO_INCREMENT,
+     name CHAR(30) NOT NULL,
+     PRIMARY KEY (id)
+);

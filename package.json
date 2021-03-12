@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/nataliawinter/crud-with-tests#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "mocha": "^8.3.0"
   }
 }

@@ -1,0 +1,22 @@
+# Use root/example as user/password credentials
+version: '3.1'
+
+services:
+  db:
+    image: mysql
+    container_name: mysql_crud
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: clients
+      MYSQL_USER: nataliawinter
+      MYSQL_PASSWORD: nataliawinter
+    ports:
+      - "33061:3306"
+
+  adminer:
+    image: adminer
+    container_name: adminer_crud
+    restart: always
+    ports:
+      - 8089:8080
